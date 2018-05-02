@@ -1,0 +1,26 @@
+# project
+| root | https://en.wikipedia.org |
+## aa playback
+|         |                            |     |                                         |
+|---------|----------------------------|-----|-----------------------------------------|
+| open    | /wiki/Legislation          |     | #Open the wikipedia Legislation article |
+| click   | link=enacted               |     |                                         |
+| clickAt | link=parliamentary systems |     |                                         |
+
+## aab playback
+|         |                     |     |
+|---------|---------------------|-----|
+| open    | /wiki/River_Chater  |     |
+| clickAt | link=River Welland  |     |
+| clickAt | link=floods of 1947 |     |
+| clickAt | link=scapegoat      |     |
+
+## aab type
+|         |                                        |              |
+|---------|----------------------------------------|--------------|
+| open    | /wiki/Main_Page                        |              |
+| clickAt | id=searchInput                         |              |
+| type    | id=searchInput                         | Selenium IDE |
+| clickAt | css=.mw-searchSuggest-link:first-child |              |
+
+![](./test_example.png)
