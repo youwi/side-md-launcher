@@ -1,8 +1,8 @@
 from distutils.core import setup
 
 setup(
-    name='md-launcher',
-    packages=['md-launcher'],  # this must be the same as the name above
+    name='robot-md-launcher',
+    packages=['robot-md-launcher'],  # this must be the same as the name above
     version='0.1',
     description='A random test lib',
     author='youwi',
