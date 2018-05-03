@@ -6,4 +6,5 @@ if __name__ == "__main__":
 
     driver = webdriver.Chrome()
     args = sys.argv[1:]
-    SeleniumIDERunner.run_markdown_file(args, driver)
+    if len(args) > 0:
+        SeleniumIDERunner.run_markdown_file(args[0], driver)

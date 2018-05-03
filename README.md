@@ -3,8 +3,11 @@ now only support selenium keywords.
 - for SeleniumIDE.
 - only support sidexx keywords.
 
-## usage
+## command usage
     python -m side_md_launcher *.side
+    
+## source usage 
+see test/*.py    
     
 ## syntax
 
