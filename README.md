@@ -1,4 +1,36 @@
-## run markdown as robot file
+## run markdown as side file
+now only support selenium keywords.
+- for SeleniumIDE.
+- only support sidexx keywords.
+
+## usage
+    python -m side_md_launcher *.side
+    
+## syntax
+
+- support markdown syntax(heading table): (sidexx keywords):
+
+ 
+    |         |                                        |              |
+    |---------|----------------------------------------|--------------|
+    | open    | /wiki/Main_Page                        |              |
+    | clickAt | id=searchInput                         |              |
+    | type    | id=searchInput                         | Selenium IDE |
+    | clickAt | css=.mw-searchSuggest-link:first-child |              |
+
+- support vertical line sep file (sidexx keywords)
+
+
+    | open    | /wiki/Main_Page                        |              |
+    | clickAt | id=searchInput                         |              |
+    | type    | id=searchInput                         | Selenium IDE |
+    | clickAt | css=.mw-searchSuggest-link:first-child |              |
+
+- support html file(TODO)
+
+```
+    < table >< tr >< td >.....< /table >
+```
 
 ## build
     python3 setup.py sdist

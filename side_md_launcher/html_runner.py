@@ -27,7 +27,7 @@ example json
 import json
 import re
 
-from ridexx_commands import RidexxCommands
+from .ridexx_commands import RidexxCommands
 
 
 class SeleniumIDEHtmlRunner:

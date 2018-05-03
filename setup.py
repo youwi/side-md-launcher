@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='robot_md_launcher',
-    packages=['robot_md_launcher'],  # this must be the same as the name above
-    version='0.1',
+    name='side_md_launcher',
+    packages=['side_md_launcher'],  # this must be the same as the name above
+    version='0.2',
     description='A random test lib',
     author='youwi',
     author_email='youwi@github.com',
@@ -11,4 +11,5 @@ setup(
     download_url='https://github.com/peterldowns/mypackage/archive/0.1.tar.gz',  # I'll explain this in a second
     keywords=['testing', 'logging', 'example'],  # arbitrary keywords
     classifiers=[],
+
 )
