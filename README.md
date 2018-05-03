@@ -11,23 +11,25 @@ see test/*.py
     
 ## syntax
 
-- support markdown syntax(heading table): (sidexx keywords):
+- support markdown syntax(no heading table): (sidexx keywords):
 
- 
+ ```
+
     |         |                                        |              |
     |---------|----------------------------------------|--------------|
     | open    | /wiki/Main_Page                        |              |
     | clickAt | id=searchInput                         |              |
     | type    | id=searchInput                         | Selenium IDE |
     | clickAt | css=.mw-searchSuggest-link:first-child |              |
+```
+- support vertical line sep file (sidexx keywords):
 
-- support vertical line sep file (sidexx keywords)
-
-
+```
     | open    | /wiki/Main_Page                        |              |
     | clickAt | id=searchInput                         |              |
     | type    | id=searchInput                         | Selenium IDE |
     | clickAt | css=.mw-searchSuggest-link:first-child |              |
+```
 
 - support html file(TODO)
 
